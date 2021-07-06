@@ -8,6 +8,10 @@ body{
     width: 50%;
 }
 
+h1 span{
+    color:rgb(187, 59, 0);
+}
+
  a{
     background-image: linear-gradient(45deg,rgb(230, 27, 0),tomato );
     border-radius: 15px;
@@ -21,52 +25,52 @@ body{
     background-image: linear-gradient(45deg,rgb(255, 251, 0),rgb(241, 201, 66) );
     color:  rgb(102, 102, 102);
 }
-.First-Section h3,  .Second-Section h3{
+#Heading-Section h3,  #About-Section h3{
     margin-bottom: 13%;
 }
-.First-Section h1, .Second-Section h1{
+#Heading-Section h1, #About-Section h1{
     font-size: 85px;
 }
 
-.Second-Section img ,.Third-Section img{
+#About-Section img ,.Recipe-Review-Mail-Section img{
     height: 100%;
     width: 100%;  
 }
 
 
-.First-Section{
+#Heading-Section{
     background-color: black;
     display: flex;
     padding-bottom: 7%;
 }
-.First-Section img{
+#Heading-Section img{
     height: 650px;
     width: 94%;
 }
 
-.First-Section h4{
+#Heading-Section h4{
     margin-top: 27%;
     margin-bottom: -35px;
 }
 
 
-.Second-Section{
+#About-Section{
     display: flex;
     background-color: #c27d45 ;
     height: 910px;
 }
-.Second-Section-Bg{
+#About-Section-Bg{
     height: 80%;
     width: 75%;
     margin-left: 11%;
     margin-top: 7%;
     display: flex;
 }
-.SecondSection-Details{
+#AboutSection-Details{
     width: 58%;
     position: relative;
 }
-.SecondSection-ParagraphDetails{
+#AboutSection-ParagraphDetails{
     margin-top: -110%;
     text-align: justify;
     margin-left: 10%;
@@ -74,19 +78,19 @@ body{
 }
 
 
-.Third-Section{
+.Recipe-Review-Mail-Section{
     height: 1600px;
     position: relative;  
 }
 
-.RecipePart-Headings{
+#RecipePart-Headings{
     width: 50%;
     margin-top: -100%;
     margin-left: 25%;
     text-align: center;
 }
 
-.Three-Recipes{
+#Three-Recipes{
     margin-top: 9%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -117,13 +121,13 @@ body{
 
 
 
-.Review-Mail-Section{
+#Review-Mail-Section{
    display: flex;
    height: 690px;
 }
 
 
-.Review-Section{
+#Review-Section{
     padding-top: 3%;
     height:77%;
     width: 70%;
@@ -149,7 +153,7 @@ body{
     margin-top: 12%;
     width: 50%;
 }
-.Submit-btn{
+#Submit-btn{
     width: 260px; 
     height: 30px;
     margin-top: 5%;
@@ -158,9 +162,12 @@ body{
     color: snow;
 }
 
+h4 span{
+    color: rgb(255, 0, 140);
+}
 
-.footer{
-    border: 1px solid rgb(0, 26, 255);
+#footer{
+    border: 1px solid rgb(195, 255, 0);
     height: 200px;
     background-image: linear-gradient(45deg,rgb(130, 218, 42),rgb(251, 255, 0) );
 }

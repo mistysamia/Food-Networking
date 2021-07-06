@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
 
+    <link rel="shortcut icon" href="Images/FavIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Food Networking</title>
 </head>
@@ -19,32 +20,31 @@
 
     <main>
 
-        <!--First Section -->
-        <div class="First-Section">
+        <div id="Heading-Section">
             <div class="Half-Width" style=" margin-left: 6%;">
                 <h4>Enjoy your meal &</h4>
-                <h1><span style="color:rgb(187, 59, 0)">Tre</span>at Your<span style="color:rgb(187, 59, 0)">self</span>
+                <h1><span>Tre</span>at Your<span>self</span>
                 </h1>
                 <div style="width: 60%;">
                     <h3>You don't need a silver fork to eat good food , where food speaks with your palate. </h3>
                 </div>
-                <a href="https://www.foodpanda.com.bd/"target="_blank" style="padding:3%">Order Food</a>
+                <a href="https://www.foodpanda.com.bd/" target="_blank" style="padding:3%">Order Food</a>
             </div>
             <div class="Half-Width">
                 <img src="Images/BurgerPic.png">
             </div>
         </div>
 
-        <!--Second Section -->
-        <div class="Second-Section">
-            <div class="Second-Section-Bg">
+
+        <div id="About-Section">
+            <div id="About-Section-Bg">
                 <div style=" width: 48%;">
                     <img src="Images/wafflePic.jpg" alt="">
                 </div>
-                <div class="SecondSection-Details">
+                <div id="AboutSection-Details">
                     <img src="Images/Coffee_BG.jpg" alt="">
-                    <div class="SecondSection-ParagraphDetails">
-                        <h1 style="color: indianred;"> Coffee House</h1>
+                    <div id="AboutSection-ParagraphDetails">
+                        <h1 style="color: rgb(104, 21, 21);"> Coffee House</h1>
                         <h3>We all have a “favorite” coffee shop. But why do we consider
                             them our favorites? Is it the music? The great coffee? The friendly baristas? The warm
                             atmosphere? As we all know, the best coffee shops have the whole package—but what is the
@@ -57,17 +57,17 @@
         </div>
 
 
-        <!-- Last Section-->
-        <div class="Third-Section">
 
-            <!--Third Section -->
+        <div class="Recipe-Review-Mail-Section">
+
+            <!--Recipes -->
             <img src="Images/Chili.jpg" alt="">
-            <div class="RecipePart-Headings">
+            <div id="RecipePart-Headings">
                 <h1>Best Recipes</h1>
                 <h3>No matter what the recipe, any cook can do wonders in the kitchen with some good ingredients and an
                     upbeat attitude ! Because a recipe is a story that ends with good meal</h3>
             </div>
-            <div class="Three-Recipes">
+            <div id="Three-Recipes">
                 <div class="Individual-Recipe-Part">
                     <img src="Images/ChickenCurry.jpg" alt="">
                     <div class="RecipeTitle-Details">
@@ -103,26 +103,26 @@
             <!-- Review & Mail Part -->
 
 
-            <div class="Review-Mail-Section">
+            <div id="Review-Mail-Section">
                 <div style="width: 65%;">
-                    <div class="Review-Section">
+                    <div id="Review-Section">
                         <h1 style="margin-left: 8%;color: red;">Top Reviews</h1>
-                        <div class="Each-Review" >
+                        <div class="Each-Review">
                             <div style="width: 34%;">
                                 <img src="Images/pizza.jpg" alt="">
                             </div>
                             <div style="width: 55%;">
-                                <h4>I had lunch with some of my colleagues at Echo on Day 1. I had the Salsa Pizza - it
+                                <h4><span>Jackie Albret</span><br>I had lunch with some of my colleagues at Echo on Day 1. I had the
+                                    Salsa Pizza - it
                                     was delicious. The service was excellent.</h4>
                             </div>
                         </div>
-                        <div class="Each-Review" >
+                        <div class="Each-Review">
                             <div style="width: 34%;">
                                 <img src="Images/DaalCurry.jpg" alt="">
                             </div>
                             <div style="width: 55%;">
-                                <h4>Ordered 2 Daal Curry with Nan.We had lunch here a few times while on the island
-                                    visiting family and friends. The servers here are just wonderful.</h4>
+                                <h4><span>Rita Roy</span><br>Ordered 2 Daal Curry with Nan.We had lunch here a few times  The servers here are just wonderful.</h4>
                             </div>
                         </div>
                     </div>
@@ -135,14 +135,14 @@
                     <div style="margin-top: 5%;">
                         <input type="text" placeholder="" style="height: 200px;">
                     </div>
-                    <button class="Submit-btn">Submit</button>
+                    <button id="Submit-btn">Submit</button>
                 </div>
 
             </div>
         </div>
     </main>
     <footer>
-        <div class="footer">
+        <div id="footer">
             <div style="text-align: center; margin-top: 5%;">
                 <h1><span style="color: rgb(7, 13, 48);">Food</span> Networking</h1>
                 <h4>LET FOOD BE THY MEDICINE, THY MEDICINE SHALL BE THY FOOD.</h4>
@@ -151,4 +151,5 @@
     </footer>
 
 </body>
+
 </html>
